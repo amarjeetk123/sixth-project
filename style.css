@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+    
+  }
+  body{
+    height: 100vh;
+    width: 100vw;
+  }
+  nav{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  #navFirst{
+   margin-top: 7px;
+    margin-left: 40px;
+  }
+  #navMid{
+    margin-left: 250px;
+    display: flex;
+  }
+  #navMid div h4{
+    margin: 0px 30px;
+  }
+  #navEnd{
+    margin-left: 270px;
+    display: flex;
+   
+  }
+  #navEnd div{
+    margin: 0px 30px;
+  }
+
+  #midWholePart1{
+  margin-top: 180px;
+  margin-left: 40px;
+
+  }
+  #monstera{
+    font-size: 80px;
+    font-weight: bolder;
+    width: 500px;
+  }
+  .my{
+   font-size: 18px;
+  }
+  #midWholePart12{
+    display: flex;
+    width: 205px;
+    margin-top: 50px;
+    margin-left: 30px;
+    color:#ffffff;
+    border: 5px solid transparent;
+    border-radius: 50px;
+    background-color: #66AD47;
+    padding-left: 20px;
+  }
+  #midWholePart121{
+   display: flex;
+  }
+  #midWholePart122{
+    margin-top: 10px;
+    margin-left: 12px;
+    font-weight: none;
+  }
+  #midWholePart13{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 80px
+  }
+  .midWholePart13Parts{
+    display: flex;
+  }
+  #light{
+    background-color: none;
+  }
+  .text{
+    margin-left: 15px;
+  }
+  .abc{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  #midWholePart13 p{
+    width: 200px;
+   font-size: 13px;
+  }
+  #imgMain{
+    display: flex;
+   margin-top: -550px;
+   margin-left: 1030px;
+  }
