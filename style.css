@@ -1,52 +1,83 @@
 * {
     margin: 0;
     padding: 0;
-   
-    
+    font-family: Poppins;
   }
   body{
-    height: 100vh;
-    width: 100vw;
+    /* background-color: aqua; */
+    height: auto;
+    width: 100%;
   }
   nav{
-    height: 10vh;
-    width: 100vw;
+    background-color: #66AD47;
+    padding: 18px 0px;
+    height: auto;
+    width: 100%;
     display: flex;
     align-items: center;
-    margin-top: 20px;
+   
+  }
+  .three-line{
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    right: 5%;
+    display: none;
+}
+#check{
+    display: none;
+}
+  #navbarMonstera{
+    display: flex;
+    justify-content: space-around;
   }
   #navFirst{
-   margin-top: 7px;
-    margin-left: 40px;
+   
   }
   #navMid{
-    margin-left: 250px;
     display: flex;
   }
   #navMid div h4{
+    font-size: 20px;
     margin: 0px 30px;
   }
   #navEnd{
-    margin-left: 270px;
     display: flex;
-   
   }
   #navEnd div{
     margin: 0px 30px;
   }
 
-  #midWholePart1{
-  margin-top: 180px;
-  margin-left: 40px;
+  #midWhole{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    flex-wrap: wrap;
 
+  }
+  .left{
+    width: 50%;
+  }
+  .right{
+    width: 40%;
+    height: 89vh;
+  }
+  #midWholePart1{
+    margin-left: 100px;
   }
   #monstera{
     font-size: 80px;
     font-weight: bolder;
-    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  li{
+    font-size: 25px;
   }
   .my{
-   font-size: 18px;
+   font-size: 25px;
+   margin-top: 30px;
   }
   #midWholePart12{
     display: flex;
@@ -91,7 +122,127 @@
    font-size: 13px;
   }
   #imgMain{
-    display: flex;
-   margin-top: -550px;
-   margin-left: 1030px;
+    width: 100%;
+    height: 102%;
+  }
+  .second-image{
+    display: none;
+  }
+  @media screen and (max-width:1570px) {
+    /* body{
+      background-color: red;
+    } */
+    #imgMain{
+      display: none;
+    }
+    .second-image{
+      display: inline;
+      width: 100%;
+      height: 80%;
+      margin-top: -250px;
+      margin: -280px auto 0px;
+    }
+   
+    #midWhole{
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+    #midWholePart1{
+      width: 100%;
+      margin: 0px auto;
+      /* background-color: aqua; */
+    }
+    .right{
+      width: 100%;
+      height: auto;
+    }
+    #midWholePart11{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #midWholePart12{
+      margin: 30px auto 0px;
+     
+    }
+    #midWholePart13{
+      margin: 20px auto 10px;
+      justify-content: center;
+    }
+   
+  }
+  @media screen and (max-width:1220px) {
+  
+    .second-image{
+      margin-top: -200px;
+    }
+  }
+  @media screen and (max-width:870px) {
+    /* body{
+      background-color: red;
+    } */
+    .second-image{
+      margin-top: -200px;
+    }
+    #midWholePart13{
+      flex-direction: column;
+      margin-left: 80px;
+      margin-top: 50px;
+    }
+   #feeding , #light , #care {
+      width: 100px;
+      height: 100px;
+      margin-top: 50px;
+    }
+    .abc{
+      font-size: 40px;
+      margin-left: 40px;
+      margin-top: 50px;
+      
+    }
+    .text{
+      font-size: 80px;
+      margin-left: 50px;
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width:1140px) {
+    
+    /* body{
+      background-color: aqua;
+    } */
+    #navMid{
+      background-color: rgb(51, 248, 182);
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      top: 88px;
+      left: -100%;
+      flex-direction: column;
+      transition: 0.7s;
+    }
+    #navMid div h4{
+      font-size: 40px;
+      text-align: center;
+      margin: 10px auto 30px;
+      font-weight: 400;
+      
+    }
+    #navMid div h4:hover{
+      color: #66AD47;
+      transform: translateY(-10px);
+      transition: .6s;
+      
+    }
+    .three-line{
+      display: inline;
+  }
+  #check:checked ~ #navMid{
+      left: 0%;
+  }
+    
+
   }
