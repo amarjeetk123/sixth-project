@@ -21,6 +21,7 @@ nav {
   position: absolute;
   right: 5%;
   display: none;
+  cursor: pointer;
 }
 #check {
   display: none;
@@ -36,6 +37,7 @@ nav {
 #navMid div h4 {
   font-size: 20px;
   margin: 0px 30px;
+  cursor: pointer;
 }
 #navEnd {
   display: flex;
@@ -207,24 +209,24 @@ li {
 }
 @media screen and (max-width: 1140px) {
   #navMid {
-    background-color: rgb(51, 248, 182);
+    background-color:#66ad47;
     position: absolute;
-    width: 50%;
-    height: 100%;
-    top: 88px;
+    width: 65%;
+    height: 100vh;
+    top: 83px;
     left: -100%;
     flex-direction: column;
     transition: 0.7s;
   }
   #navMid div h4 {
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
-    margin: 10px auto 30px;
+    margin: 10px auto 10px;
     font-weight: 400;
+    color: #ffffff;
   }
   #navMid div h4:hover {
-    color: #66ad47;
-    transform: translateY(-10px);
+    transform: translateY(-6px);
     transition: 0.6s;
   }
   .three-line {
@@ -232,6 +234,16 @@ li {
   }
   #check:checked ~ #navMid {
     left: 0%;
+  }
+}
+@media screen and (max-width: 770px){
+  .second-image {
+    margin-top: -160px;
+  }
+}
+@media screen and (max-width: 630px){
+  .second-image {
+    margin-top: -100px;
   }
 }
 
@@ -248,7 +260,15 @@ li {
   #monstera{
     font-size: 70px;
   }
+  #midWholePart13 {
+    margin-left: 15px;
+  }
 }
 @media screen and (max-width: 450px){
-
+  #midWholePart13 {
+    margin-left: 20px;
+  }
+  #monstera{
+    font-size: 60px;
+  }
 }
