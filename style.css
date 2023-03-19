@@ -272,3 +272,6 @@ li {
     font-size: 60px;
   }
 }
+.dis-btn{
+  cursor: pointer;
+}
