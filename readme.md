@@ -1,6 +1,6 @@
 # Project-06-  Nursing Home Page
  ## Hey there ,  I am Amarjeet Kumar
- I have built a template of HTML and CSS project using my core css skills 
+ I have built a template of HTML and CSS. 
  
  ![](https://img.shields.io/badge/Project-06-green)
  ![](https://img.shields.io/badge/HTML-5-orange)
